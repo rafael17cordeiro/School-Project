@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+
+    <body>
+        <header>
+            <a href="home.html" style="text-decoration: none; color: white;"> <h1 class="" >GameMaster</h1></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class="bx bx-x" id="close-icon"></i>
+            </label>
+            <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="games.html">Games</a>
+            <a href="contact.html">Contact</a>
+            <a href="profile.html"><img src="img/user.png" class="profile-icon" alt=""></a>
+            </nav>
+        </header>
+        <div class="carta-section">
+            <div id="carta" class="carta">
+                <form class="contact" name="contact">
+                    <center>
+                        <h1 class="usarname">Contact<span style="color: rgb(0, 153, 255);"> Us</span></h1><br>
+                        <hr style="width: 80%; margin: 0 auto; background-color: rgba(255, 255, 255, 0.199);"><br>
+                    </center>
+                    <h4>First Name</h4>
+                    <input type="text" name="first_name" id="first_name"><br><br>
+                
+                    <h4>Last Name</h4>
+                    <input type="text" name="last_name" id="last_name"><br><br>
+                
+                    <h3>Message</h3>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    
+                    <center><p id="alert"></p>
+                        <button type="reset" class="btn mx-1" form="contact" value="Reset" onclick="reset()">Reset</button>
+                        <button type="submit" class="btn mx-1" form="contact" value="Submit" onclick="send( )">Submit</button>
+                    </center>
+                </form>
+                
+
+
+
+            </div>
+        </div>
+
+    </body>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 GameMaster Inc.</p>
+
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</html>

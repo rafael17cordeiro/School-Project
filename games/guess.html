@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Guess Game</title>
+</head>
+<body>
+    <div id="game1" class="game1">
+        <h1>Welcome to the <span style="color: rgb(0, 153, 255);">Guess Game</span></h1>
+        <div class="game1-content">
+            <p>Guess a number between 1 and 5:</p>
+            <input type="number" id="guess" min="1" max="50" placeholder="Number">
+            <button onclick="checkGuess()" style="width: 140px; height: 35px;" class="btn-primary">Submit Guess</button>
+            <p id="message"></p>
+        </div>
+    </div>
+    
+    <script src="../index.js"></script>
+    <script src="../games.js"></script>
+</body>
+
+</html>
