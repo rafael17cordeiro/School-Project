@@ -448,12 +448,11 @@ iframe {
 
 
 .game1 {
-    
     overflow: hidden;
-    max-width:50%;
+    max-width:60%;
     height: auto;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 0px;
     padding: 20px 20px 20px 20px;
     border-radius: 30px;
@@ -461,6 +460,22 @@ iframe {
     scale: (1);
     transition: 0.6s;
 }
+
+
+@media(max-width: 825px){
+    .game1{
+        max-width: 80%
+    }
+
+    .game1 p{
+        font-size:1rem;
+    }
+    .game1 h1{
+        font-size:2.2rem;
+    }
+}
+
+
 
 .game1:hover{
     transition: 0.6s;
@@ -473,16 +488,19 @@ iframe {
     margin-top: 40px;
     text-align: center;
 }
-.game1 h1 {
-    font-size: 3rem;
-}
+
 
 .btn-primary{
+    text-align: center;
+    border: none;
+    width: 130px;
+    height: 35px;
     border-radius: 10px;
+    font-size: 1.1rem;
 }
 
 
-/* Style for the input and button */
+
 .game1 input[type="number"] {
     text-align: center;
     border: none;
@@ -493,14 +511,28 @@ iframe {
     
 }
 
-/* Style for the message area */
+.game1 p{
+    font-weight: 200;
+    font-size:1.3rem;
+}
+
 #message {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 10px;
 }
 
-.game1 p{
-    font-size:1.3rem;
+
+
+.back{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
 }
 
+.back:hover{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
