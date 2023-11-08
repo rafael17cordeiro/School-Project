@@ -146,3 +146,4 @@ function checkGuess() {
         document.getElementById("message").textContent = "Try another number!";
     }
 }
+
