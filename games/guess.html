@@ -5,32 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Guess Game</title>
 </head>
 <body>
-    <header>
-        <a href="home.html" style="text-decoration: none; color: white;"> <h1 class="" >GameMaster</h1></a>
-          <input type="checkbox" id="check">
-          <label for="check" class="icons">
-              <i class='bx bx-menu' id="menu-icon"></i>
-              <i class="bx bx-x" id="close-icon"></i>
-          </label>
-          <nav class="navigation">
-          <a href="../home.html">Home</a>
-          <a href="../about.html">About</a>
-          <a href="../games.html">Games</a>
-          <a href="../contact.html">Contact</a>
-          <a href="../profile.html"><img src="../img/user.png" class="profile-icon" alt=""></a>
-      </nav>
-      </header>
-    <div id="game1" class="game1"">
+      <header>
+       <a href="../about.html" style="text-decoration: none; color: white;"> <h1 class="" >GameMaster</h1></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        <nav class="navigation">
+        <a href="../home.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../games.html">Games</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../profile.html"><img src="../img/user.png" class="profile-icon" alt=""></a>
+    </nav>
+    
+    </header>
+    <div id="game1" class="game1"   >
         <h1 class="game-title">Welcome to the <span style="color: rgb(0, 153, 255);">Guess Game</span></h1>
         <div class="game1-content">
             <p>Guess a number between 1 and 5:</p>
             <input type="number" id="guess" min="1" max="50" placeholder="Number">
             <button onclick="checkGuess()" style="width: 140px; height: 35px;" class="btn-primary">Submit Guess</button>
             <p id="message"></p>
-            <a href="../games.html" class="back">Back to Games <img src="../img/back-arrow.png" style="width: 20px; height: 20px;" alt=""></a>
+            
         </div>
     </div>
     
