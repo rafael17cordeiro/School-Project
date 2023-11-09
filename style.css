@@ -318,8 +318,8 @@ header h1{
 }
 .logo-img{
     border-radius: 50%; 
-    width: 320px;
-    height:370px;
+    width: 340px;
+    height:340px;
     scale: 1;
     transition: 0.6s ease;
 
@@ -374,7 +374,7 @@ iframe {
 
 
 .card {
-
+    max-width: 300px;
     cursor: pointer;
     background-color: transparent;
     border: none;
