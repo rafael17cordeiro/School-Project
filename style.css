@@ -317,13 +317,8 @@ header h1{
 }
 .logo-img{
     border-radius: 50%; 
-<<<<<<< HEAD
-    width: 340px;
-    height:340px;
-=======
-    width: 320px;
-    height:320px;
->>>>>>> 6a35839bb06ee8eb9f3df6d3a6cfc9833f9756b0
+    width: 310px;
+    height:310px;
     scale: 1;
     transition: 0.6s ease;
 
@@ -428,7 +423,7 @@ iframe {
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 20px;
-    width: 30%;
+    width: 50%;
     scale: (1);
     overflow: hidden;
     transition: 0.6s;
