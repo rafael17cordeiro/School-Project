@@ -18,4 +18,4 @@ Project Highlights:
 
 🎓 **Educational Purpose:** This project was undertaken for educational purposes, aiming to demonstrate proficiency in HTML, CSS, and JavaScript, and does not represent an operational website for GameMasters Inc.
 
-This repository contains the project's source code and files, providing insights into site structuring and the application of the mentioned technologies.
+#### This repository contains the project's source code and files, providing insights into site structuring and the application of the mentioned technologies 🚀
